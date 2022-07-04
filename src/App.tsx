@@ -1,10 +1,10 @@
 import React, { FC } from 'react'
-import { Button } from 'antd'
+import Cart from './pages/Cart'
 import '@/App.less'
 
 const App: FC = () => (
   <div className="App">
-    <Button type="primary">Button</Button>
+    <Cart />
   </div>
 )
 

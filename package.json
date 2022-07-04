@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@craco/craco": "^6.4.3",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
