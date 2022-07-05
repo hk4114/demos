@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button } from 'antd'
-import { UpOutlined, DownOutlined } from '@ant-design/icons'
 import { useGlobalContext } from '../context'
 import { ICartItem } from '../module'
 
