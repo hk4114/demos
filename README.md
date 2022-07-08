@@ -83,6 +83,34 @@ npx eslint --init
 // npx prettier --write .
 ```
 
+配置别名
+```js
+// craco.config.js
+const path = require('path')
+const resolve = dir => path.resolve(__dirname, dir)
+
+module.exports = {
+  webpack: {
+    alias: {
+      '@': resolve('src')
+    }
+  }
+}
+// package.json
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
+// tsconfig.json
+"baseUrl": "./",
+"paths": {
+  "@/*": ["src/*"]
+},
+```
 
 ## 熟悉 react api - Cart
 
