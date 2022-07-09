@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import Cart from './pages/Cart'
+import Cart from '@/pages/Cart'
 import '@/App.less'
 
 const App: FC = () => (
