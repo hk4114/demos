@@ -112,5 +112,13 @@ module.exports = {
 },
 ```
 
+- [x] Cart
+- [x] Markdown
+- [x] Pagination
+- [x] Dark Mode
+- [x] Hacker News
+- [x] Quiz
+
 ## 熟悉 react api - Cart
+
 
