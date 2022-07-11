@@ -35,7 +35,7 @@ function QuizApp() {
     answers[tempIndex] = correct_answer
   }
   return (
-    <main>
+    <div className="main">
       <Modal />
       <section className="quiz">
         <p className="correct-answers">
@@ -60,7 +60,7 @@ function QuizApp() {
           next question
         </button>
       </section>
-    </main>
+    </div>
   )
 }
 

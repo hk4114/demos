@@ -17,9 +17,11 @@ function HackerNewsApp() {
 
 function HackerNews() {
   return (
-    <AppProvider>
-      <HackerNewsApp />
-    </AppProvider>
+    <div className="hackernews-wrapper">
+      <AppProvider>
+        <HackerNewsApp />
+      </AppProvider>
+    </div>
   )
 }
 
