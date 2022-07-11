@@ -1,8 +1,9 @@
-import React from "react";
-import SearchForm from "./components/SearchForm";
-import Buttons from "./components/Buttons";
-import Stories from "./components/Stories";
-import { AppProvider } from './store/context';
+import React from 'react'
+import SearchForm from './components/SearchForm'
+import Buttons from './components/Buttons'
+import Stories from './components/Stories'
+import { AppProvider } from './store/context'
+import './index.less'
 
 function HackerNewsApp() {
   return (
@@ -11,7 +12,7 @@ function HackerNewsApp() {
       <Buttons />
       <Stories />
     </>
-  );
+  )
 }
 
 function HackerNews() {
@@ -19,7 +20,7 @@ function HackerNews() {
     <AppProvider>
       <HackerNewsApp />
     </AppProvider>
-  );
+  )
 }
 
-export default HackerNews;
+export default HackerNews

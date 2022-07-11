@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="nav-center">
         <h3>Cart</h3>
         <div className="nav-container">
-          <ShoppingOutlined style={{ fontSize: '54px' }} />
+          <ShoppingOutlined style={{ fontSize: '54px', color: 'white' }} />
           <div className="amount-container">
             <p className="total-amount">{amount}</p>
           </div>

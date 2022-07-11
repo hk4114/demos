@@ -5,6 +5,8 @@ import SetupForm from './components/SetupForm'
 import Loading from './components/Loading'
 import Modal from './components/Modal'
 
+import './index.less'
+
 function QuizApp() {
   const {
     waiting,

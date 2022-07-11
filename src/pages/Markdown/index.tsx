@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
+import './index.less'
 
 function Markdown() {
   const [markdown, setMarkdown] = useState('# markdown preview')

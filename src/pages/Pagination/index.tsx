@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useTableFetch } from '@/hooks/useFetch'
 import Follower from './components/Follower'
+import './index.less'
 
 function Pagination() {
   const { loading, data } = useTableFetch()
