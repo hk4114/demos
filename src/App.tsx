@@ -7,6 +7,7 @@ import DarkMode from '@/pages/DarkMode'
 import HackerNews from '@/pages/HackerNews'
 import Quiz from '@/pages/Quiz'
 import Demo from '@/pages/Demo'
+import Solid from '@/pages/Solid'
 import '@/App.less'
 
 const App: FC = () => (
@@ -34,6 +35,9 @@ const App: FC = () => (
         <li>
           <Link to="/demo">Demo</Link>
         </li>
+        <li>
+          <Link to="/solid">SOLID</Link>
+        </li>
       </ul>
     </aside>
     <Routes>
@@ -44,6 +48,7 @@ const App: FC = () => (
       <Route path="/hackernews" element={<HackerNews />} />
       <Route path="/quiz" element={<Quiz />} />
       <Route path="/demo" element={<Demo />} />
+      <Route path="/solid" element={<Solid />} />
     </Routes>
   </div>
 )
